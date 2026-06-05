@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kent Laurence S. Caballero — Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand" href="#">KL Caballero</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-1">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="header" id="home">
+    <div class="header-badge">Available for work</div>
+    <h1>Kent Laurence<br><span>S. Caballero</span></h1>
+    <p>IT Student & Web Developer — building full-stack web applications using Laravel, PHP, HTML, CSS, and JavaScript.</p>
+    <a href="#contact" class="header-cta">
+        <i class="fas fa-paper-plane"></i> Get in Touch
+    </a>
+</header>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <span class="section-tag">Who I am</span>
+    <h2>About Me</h2>
+    <p class="section-sub">A little background on my journey so far</p>
+    <div class="about-inner">
+        <p>
+         Hi, I'm Kent Laurence S. Caballero, an Information Technology student at the University of Mindanao who
+         enjoys building practical and user-friendly web applications. I've worked on projects such as a <strong>Research Management System</strong>, 
+         a <strong>Sari-Sari Store Stock Management System</strong>using Laravel and PHP, and <strong>Flood Ready Panabo</strong>, a community flood-warning platform 
+         developed with HTML, CSS, and JavaScript.
+         I’m always eager to learn and grow as a developer.
+         When I’m not coding, you’ll usually find me playing my electric guitar or exploring new technologies and development tools.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+    <div class="skills-inner">
+        <span class="section-tag">What I know</span>
+        <h2><i class="fas fa-code me-2"></i>Skills</h2>
+        <p class="section-sub">Technologies I work with and am actively improving</p>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="OIP.jpg" class="card-img-top" alt="HTML">
+                <div class="card-body">
+                    <h5 class="card-title">HTML5</h5>
+                    <p class="card-text">Semantic, structured, accessible web pages.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="css.jpg" class="card-img-top" alt="CSS">
+                <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Responsive, modern layouts with Flexbox & Grid.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="OIP (1).jpg" class="card-img-top" alt="JavaScript">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Interactive UIs, DOM manipulation, ES6+.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="php.png" class="card-img-top" alt="PHP">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">Server-side logic, routing, and backend systems.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="laravel.webp" class="card-img-top" alt="Laravel">
+                <div class="card-body">
+                    <h5 class="card-title">Laravel</h5>
+                    <p class="card-text">MVC architecture, Eloquent ORM, Blade templating.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="OIP (2).jpg" class="card-img-top" alt="MySQL">
+                <div class="card-body">
+                    <h5 class="card-title">MySQL</h5>
+                    <p class="card-text">Schema design, migrations, queries, and relations.</p>
+                    <a href="#" class="btn btn-primary">View</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <div class="projects-inner">
+        <span class="section-tag">What I've built</span>
+        <h2><i class="fas fa-project-diagram me-2"></i>Projects</h2>
+        <p class="section-sub">Real-world systems and web applications I've developed</p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <div class="project-icon"><i class="fas fa-flask"></i></div>
+                <div class="project-stack">Laravel · PHP · MySQL</div>
+                <h3>Research Management System</h3>
+                <p>Full-stack web system for managing and organizing academic research — with submission workflows, approval routing, categorization, and search. Built with Laravel MVC and role-based access control.</p>
+            </div>
+
+            <div class="card">
+                <div class="project-icon"><i class="fas fa-store"></i></div>
+                <div class="project-stack">Laravel · PHP · MySQL · JS</div>
+                <h3>Sari-Sari Store Stock System</h3>
+                <p>Complete inventory management system for small local stores. Features product tracking, stock-in/out logging, low-stock alerts, and a sales summary dashboard.</p>
+            </div>
+
+            <div class="card">
+                <div class="project-icon"><i class="fas fa-water"></i></div>
+                <div class="project-stack">HTML · CSS · JavaScript</div>
+                <h3>Flood Ready Panabo</h3>
+                <p>Community flood-warning and disaster-preparedness platform for Panabo City. Includes flood risk indicators, evacuation routes, and emergency contacts — built mobile-first for emergency accessibility.</p>
+            </div>
+
+            <div class="card">
+                <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+                <div class="project-stack">HTML · CSS · Bootstrap 5</div>
+                <h3>Personal Portfolio Website</h3>
+                <p>This site — a responsive portfolio with sticky navigation, active-link scroll highlighting, skills cards, and a contact grid. Designed to professional job-application standards.</p>
+            </div>
+
+            <div class="card">
+                <div class="project-icon"><i class="fas fa-code"></i></div>
+                <div class="project-stack">HTML · CSS · JavaScript</div>
+                <h3>HTML/CSS/JS Projects</h3>
+                <p>A collection of front-end web projects and practice activities covering semantic HTML, forms, responsive layouts, and interactive JavaScript components.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <span class="section-tag">Reach out</span>
+    <h2>Contact Information</h2>
+    <p class="section-sub">Open to part-time and entry-level web development opportunities</p>
+
+    <div class="contact-grid">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">k.caballero.553378@umindanao.edu.ph</div>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-label">Location</div>
+            <div class="contact-value">Philippines</div>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-university"></i>
+            <div class="contact-label">School</div>
+            <div class="contact-value">University of Mindanao</div>
+        </div>
+        <div class="contact-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div class="contact-label">Course</div>
+            <div class="contact-value">BS Information Technology</div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© 2026 <span>Kent Laurence S. Caballero</span> · BSIT Student · University of Mindanao</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const sections = document.querySelectorAll('section[id], header[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + entry.target.id) link.classList.add('active');
+                });
+            }
+        });
+    }, { threshold: 0.4 });
+    sections.forEach(s => observer.observe(s));
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.forEach(l => l.classList.remove('active'));
+            link.classList.add('active');
+        });
+    });
+</script>
+</body>
+</html>
